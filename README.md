@@ -1,5 +1,7 @@
 # Quality Prediction in Red & White Wines
 
+![red_white](Images/red_white_white.png)
+
 ## Data Sources
 Datasets were obtain through Kaggle
 - Red wine: wineequality-red.csv
