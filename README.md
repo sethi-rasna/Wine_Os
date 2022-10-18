@@ -1,4 +1,4 @@
-# Quality Prediction in Red & White Wines
+# Red or White?
 
 ![red_white](Images/red_white_white.png)
 
