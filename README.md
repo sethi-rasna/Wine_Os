@@ -7,12 +7,12 @@ It's one of the most famous either/or questions, a restless debate and one that 
 Winemaking is a multi-billion dollar industry, an assembly process that leads to the creation an alchoholic beverage that is a global commodity product. With each wine brand and wine type, its process and ingredients are distinct. We will investigate a number of physicochemical variables to determine how largely red and white wine differ. Ultimately, through our data exploration and analysis, we seek to determine which wine is the healthier option for consumption. For our study, we will be utlizing data focusing on the Portuguese "Vinho Verde" wine, one of the most famous wine varities of Portugal, to determine if we are able to arrive at a conclusion. 
 
 ## Collaborators
-| Names | Role | Description |
+| Name | Role | Description |
 | :---         |     :---:      | :---         |
 | Vannesa Martinez | Project Manager | Managing the project presentation and visualization|
-| Aggie Jasinski | Data Gathering | Gather the dataset csv's and preprocessing the datasets|
-| Roman Dobczansky | Machine Learning | Creation of the Machine Learning Model |
-| Rasna| GitHub Repository and Databse | Responsbile for the repository and the Database section |
+| Aggie Jasinski | Data Gathering | Gathering the dataset csv's and preprocessing the datasets|
+| Roman Dobczansky | Machine Learning | Creating the framework of the Machine Learning Model |
+| Rasna | GitHub Repository and Databse | Organizing and maintaining the repository and the database creation|
 
 ## Data Sources
 Datasets were obtain via Kaggle
