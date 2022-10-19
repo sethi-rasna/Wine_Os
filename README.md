@@ -23,6 +23,7 @@ In our analysis we utilize two datasets that of the red and white Portuguese "Vi
 - density
 - pH
 - sulphates
+- alcohol
 
 ## Investigation Questions
 - Are there vast chemical compound differences between the red and white wine datasets being compared?
