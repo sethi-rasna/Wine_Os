@@ -4,3 +4,6 @@ The  output will determine which wines are highest in quality using the neural n
 This model will be conduscted as a supervised ML model because we want to accept or reject the hypotheis that red wine is healthier and tastier because of higher residual sugar than white wine based on our criteria.
 
 
+## Database
+
+We will be creating a master database of red and white wine qualities by codifying red and white wines separately therefore making it easier to compare and contrast the qualities of red and white wines.
