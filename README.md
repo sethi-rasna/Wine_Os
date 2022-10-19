@@ -6,7 +6,7 @@ It is one of the most famous either/or questions, a restless debate and one that
 
 Winemaking is a multi-billion dollar industry, an assembly process that leads to the creation an alchoholic beverage that is a global commodity product. With each wine brand and wine type, its process and ingredients are distinct. We will investigate a number of physicochemical variables to determine how largely red and white wine differ. Ultimately, through our data exploration and analysis, we seek to determine which wine is the healthier option for consumption. For our study, we will be utlizing data focusing on the Portuguese "Vinho Verde" wine, one of the most famous wine varities of Portugal, to determine if we are able to arrive at a conclusion. 
 
-## Portuguese Vinho Verde Overview
+## Insight on Portuguese Vinho Verde
 What makes the quality of **“Vinho Verde”** so unique?
 “Vino Verde” (its literal translation “green wine”) is not a grape type. **“Green” means young** rather than anything to do with its color.  
 A single glass of wine contains thousands of different chemical compounds which determine its quality. We are to find out what characteristics make a Vinho Verde a Vinho Verde. Is it the region of Vinho Verde or the unique chemical compounds that make up this young wine's quality and taste.
