@@ -8,7 +8,7 @@ Winemaking is a multi-billion dollar industry, an assembly process that leads to
 
 ## Collaborators
 | Names | Role | Description |
-| :---         |     :---:      |          ---: |
+| :---         |     :---:      | :---         |
 | Vannesa Martinez | Project Manager | Managing the project presentation and visualization|
 | Aggie Jasinski | Data Gathering | Gather the dataset csv's and preprocessing the datasets|
 | Roman Dobczansky | Machine Learning | Creation of the Machine Learning Model |
