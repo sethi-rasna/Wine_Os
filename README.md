@@ -1,3 +1,19 @@
+
+# Wine_Os
+
+## An overview introduction to our Wine_Os project:
+What makes the quality of **“Vinho Verde”** so unique:
+“Vino Verde” (literally “green wine”) is not a grape type. **“Green” means young** rather than anything to do with its color.  
+A single glass of wine contains thousands of different chemical compounds which determine its quality. We are to find out what characteristics make a Vinho Verde a Vinho Verde.  Is it the region of Vinho Verde or the unique chemical compounds that make up this young wine's quality and taste.
+
+By using Machine Learning models, we will try to predict Vinho Verde’s quality, taste and price based on its chemical composition such as; acidity, sulfur, sulphates, and alcohol content.  We will compare Vinho Verde red and white. 
+
+### In our prediction model the following modules (but not limited to) will be used:
+- Pandas
+- NumPy
+- Matplotlib
+- sklearn
+=======
 # Red or White?
 
 ![red_white](Images/red_white.png)
@@ -42,6 +58,7 @@ In our analysis we utilize two datasets that of the red and white Portuguese "Vi
 The plan for our machine learning model using tensor flow implements input variables as red and white wine data
 The  output will determine which wines are highest in quality using the neural network nodes as metrics of fixed acidity, alchohol content, sulphates, and residual sugars 
 This model will be conducted as a supervised ML model because we want to accept or reject the hypothesis that red wine is healthier and tastier because of higher levels said metrics than white wine based on our criteria.
+
 
 
 
