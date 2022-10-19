@@ -37,3 +37,11 @@ In our analysis we utilize two datasets that of the red and white Portuguese "Vi
 - Are there vast chemical compound differences between the red and white wine datasets being compared?
 - Which type of wine presents less alcohol, acidity, and sulphate?
 - Which wine is a healthier option for consumers?
+=======
+# Wine_Os
+The plan for our machine learning model using tensor flow implements input variables as red and white wine data
+The  output will determine which wines are highest in quality using the neural network nodes as metrics of fixed acidity, alchohol content, sulphates, and residual sugars 
+This model will be conducted as a supervised ML model because we want to accept or reject the hypothesis that red wine is healthier and tastier because of higher levels said metrics than white wine based on our criteria.
+
+
+
