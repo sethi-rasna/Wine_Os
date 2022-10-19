@@ -62,3 +62,6 @@ This model will be conducted as a supervised ML model because we want to accept 
 
 
 
+## Database
+
+We will be creating a master database of red and white wine qualities by codifying red and white wines separately therefore making it easier to compare and contrast the qualities of red and white wines.
