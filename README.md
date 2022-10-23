@@ -39,6 +39,29 @@ In our analysis we utilize two datasets that of the red and white Portuguese "Vi
 - Which qualities make up the healthiest wine?
 - Which wine is a healthier option for consumers?
 
+## Understanding the Variables
+Before diving into our investigation and research questions, let’s take a step back to further understand a few of the explanatory variables are essential in the chemistry of wine and its balance crucial to make to the wine. 
+
+### Sulfates
+The presence of sulfates on labels can sometimes worry consumers, its pros in wine are crucial to the consumption and longevity of the wine stored in the bottle itself. Sulfates help to prevent wine from browning and minimize oxidation in wine and maintain its freshness. Wines with lower acidity need more sulfites than higher acidity wines. Other effects on the winemaking process include preventing the growth of unwanted microorganisms, promoting the growth of yeast for better fermentation, and improving the release of desirable compounds from grapes. 
+From a health standpoint, that are a few risks associated that individuals can develop with consumption. Some side effects that can be presented include:
+-	Headache
+-	Rash
+-	Hives
+-	Swelling of the month and lips
+-	Trouble breathing
+-	Anaphylaxis
+
+### Acidity and pH
+Wine acidity greatly affects its flavor and aroma in several ways. Wines that present high acidity have a sharper taste while also affecting how the consumption affects how it will sit in an individual’s stomach. Fixed and volatile acidity tells us the concentration of acids present in wine. pH levels inform us of the intensity of acids present. 
+
+### Residual sugar (RS)
+Residual sugars is essential the natural grape sugar contents left behind and do not end up being converted to alcohol during the fermentation process. Residual sugar content after fermentation is inversely proportionate to the alcohol level. Meaning that higher alcohol wines contain less sugar, while low alcohol wines have more sugar. The RS amount is measured in grams per litre (g/L) and will affect a wine’s sweetness. 
+
+### Alcohol content
+This is the percentage of alcohol content of the wine. Veraison, the process that ripens the graphs that produces sugar, combined with fermentation, the yeast used in the winemaking transforms sugar into ethanol (alcohol), heat, and carbon dioxide. Essentially, the higher the sugar levels in the grape, the higher the alcohol levels in the wine.  
+
+
 # Wine_Os
 The plan for our machine learning model using tensor flow implements input variables as red and white wine data
 The  output will determine which wines are highest in quality using the neural network nodes as metrics of fixed acidity, alchohol content, sulphates, and residual sugars 
