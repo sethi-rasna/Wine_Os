@@ -58,7 +58,7 @@ From a health standpoint, that are a few risks associated that individuals can d
 ### Acidity and pH
 Wine acidity greatly affects its flavor and aroma in several ways. Wines that present high acidity have a sharper taste while also affecting how the consumption affects how it will sit in an individual’s stomach. Fixed and volatile acidity tells us the concentration of acids present in wine. pH levels inform us of the intensity of acids present. 
 
-### Residual sugar (RS)
+### Residual sugar
 Residual sugars is essential the natural grape sugar contents left behind and do not end up being converted to alcohol during the fermentation process. Residual sugar content after fermentation is inversely proportionate to the alcohol level. Meaning that higher alcohol wines contain less sugar, while low alcohol wines have more sugar. The RS amount is measured in grams per litre (g/L) and will affect a wine’s sweetness. 
 
 ### Alcohol content
