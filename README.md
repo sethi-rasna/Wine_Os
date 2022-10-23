@@ -40,6 +40,9 @@ In our analysis we utilize two datasets that of the red and white Portuguese "Vi
 - Which wine is a healthier option for consumers?
 
 ## Understanding the Variables
+
+![wine chemical breakdown](Images/wine_attributes.png)
+
 Before diving into our investigation and research questions, let’s take a step back to further understand a few of the explanatory variables are essential in the chemistry of wine and its balance crucial to make to the wine. 
 
 ### Sulfates
