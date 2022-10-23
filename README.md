@@ -16,8 +16,8 @@ Winemaking is a multi-billion dollar industry, an assembly process that leads to
 
 ## Data Sources
 Datasets were obtain via Kaggle
-- Red wine: wineequality-red.csv
-- White wine: winequality-white.csv
+- Red wine: [wineequality-red.csv](https://www.kaggle.com/code/vishalyo990/prediction-of-quality-of-wine/notebook)
+- White wine: [winequality-white.csv](https://www.kaggle.com/datasets/piyushagni5/white-wine-quality?select=winequality-white.csv)
 
 ## Data Description
 In our analysis we utilize two datasets that of the red and white Portuguese "Vinho Verde" wine brand to determine if the chemical components levels correlate with our hypothesis of the healthier wine. In both datasets, each focus on the same variables, which are part of our merged dataset. The variables that will be part of our examination are as followed:
@@ -37,7 +37,7 @@ In our analysis we utilize two datasets that of the red and white Portuguese "Vi
 - Are there vast chemical compound differences between the red and white wine datasets being compared?
 - Which type of wine presents less alcohol, acidity, and sulphate?
 - Which wine is a healthier option for consumers?
-=======
+
 # Wine_Os
 The plan for our machine learning model using tensor flow implements input variables as red and white wine data
 The  output will determine which wines are highest in quality using the neural network nodes as metrics of fixed acidity, alchohol content, sulphates, and residual sugars 
