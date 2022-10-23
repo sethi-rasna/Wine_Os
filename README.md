@@ -15,7 +15,7 @@ Winemaking is a multi-billion dollar industry, an assembly process that leads to
 | Rasna | GitHub Repository and Databse | Organizing and maintaining the repository and the database creation|
 
 ## Data Sources
-Datasets were obtain via Kaggle
+Datasets were obtain through Kaggle
 - Red wine: [wineequality-red.csv](https://www.kaggle.com/code/vishalyo990/prediction-of-quality-of-wine/notebook)
 - White wine: [winequality-white.csv](https://www.kaggle.com/datasets/piyushagni5/white-wine-quality?select=winequality-white.csv)
 
@@ -36,6 +36,7 @@ In our analysis we utilize two datasets that of the red and white Portuguese "Vi
 ## Investigation Questions
 - Are there vast chemical compound differences between the red and white wine datasets being compared?
 - Which type of wine presents less alcohol, acidity, and sulphate?
+- Which qualities make up the healthiest wine?
 - Which wine is a healthier option for consumers?
 
 # Wine_Os
