@@ -9,7 +9,7 @@ Winemaking is a multi-billion dollar industry, an assembly process that leads to
 ## Insight on Portuguese Vinho Verde
 What makes the quality of **“Vinho Verde”** so unique?
 
-“Vino Verde” (its literal translation “green wine”) is not a grape type. **“Green” means young** rather than anything to do with its color. A single glass of wine contains thousands of different chemical compounds which determine its quality. We are to find out what characteristics make a Vinho Verde a Vinho Verde. Is it the region of Vinho Verde or the unique chemical compounds that make up this young wine's quality and taste?
+Known as the second-highest selling wine in Portugal, “Vino Verde” derives from one of the oldest regions in Portugal and one of the largest wine centers in Europe. Its literal translation “green wine”) is not a grape type. **“Green” means young** rather than anything to do with its color. A single glass of wine contains thousands of different chemical compounds which determine its quality. We are to find out what characteristics make a Vinho Verde a Vinho Verde. Is it the region of Vinho Verde or the unique chemical compounds that make up this young wine's quality and taste?
 
 ## Collaborators
 | Name | Role | Description |
@@ -17,15 +17,17 @@ What makes the quality of **“Vinho Verde”** so unique?
 | Vannesa Martinez | Project Manager | Managing the project presentation and visualization|
 | Aggie Jasinski | Data Gathering | Gathering the dataset csv's and preprocessing the datasets |
 | Roman Dobczansky | Machine Learning | Creating the framework of the Machine Learning Model |
-| Rasna | GitHub Repository and Database | Organizing and maintaining the repository and the database creation |
+| Rasna Sethi | GitHub Repository and Database | Organizing and maintaining the repository and the database creation |
 
 ## Technologies Used
+- Jupyter Notebook
+- Google Colab
 - Python
 - Pandas
 - NumPy
-- Matplotlib
 - PostgresSQL
 - sklearn
+- Tableau
 
 ## Data Sources
 Datasets were obtain through Kaggle
