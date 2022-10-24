@@ -1,4 +1,4 @@
-wine_type,winetype_numeric,fixed acidity,volatile acidity,citric acid,residual sugar,chlorides,free sulfur dioxide,total sulfur dioxide,density,pH,sulphates,alcohol,fixed acidity,sulphates 1=low 2=high,alcohol 1=low 2=high,fixed acidity 1=low 2=high,health 1 HEALTHY=low sulphates  2 NOT HEALTHY= high sulphates,quality 2 GOOD =HIGH alco and low/high acid   1 BAD=LOW alc and low/high acid
+wine_type,winetype_numeric,fixed acidity,volatile acidity,citric acid,residual sugar,chlorides,free sulfur dioxide,total sulfur dioxide,density,pH,sulphates,alcohol,fixed acidity,sulphates 1=low 2=high,alcohol 1=low 2=high,fixed acidity 1=low 2=high,healthiness,quality
 white,2,3.8,0.31,0.02,11.1,0.036,20,114,0.99248,3.75,0.44,12.4,3.8,1,2,1,1,2
 white,2,3.9,0.225,0.4,4.2,0.03,29,118,0.989,3.57,0.36,12.8,3.9,1,2,1,1,2
 white,2,4.4,0.46,0.1,2.8,0.024,31,111,0.98816,3.48,0.34,13.1,4.4,1,2,1,1,2
