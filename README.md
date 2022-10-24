@@ -78,14 +78,6 @@ Residual sugars is essential the natural grape sugar contents left behind and do
 ### Alcohol content
 This is the percentage of alcohol content of the wine. Veraison, the process that ripens the graphs that produces sugar, combined with fermentation, the yeast used in the winemaking transforms sugar into ethanol (alcohol), heat, and carbon dioxide. Essentially, the higher the sugar levels in the grape, the higher the alcohol levels in the wine.  
 
-
-# Wine_Os
-The plan for our machine learning model using tensor flow implements input variables as red and white wine data
-The  output will determine which wines are highest in quality using the neural network nodes as metrics of fixed acidity, alchohol content, sulphates, and residual sugars 
-=======
-- Which type of wine presents less alcohol, acidity, and sulfite?
-- Which wine is a healthier option for consumers?
-
 ## Machine Learning Module
 By using Machine Learning models, we will try to predict Vinho Verde’s quality based on its chemical composition such as; acidity, sulfur, sulfites, and alcohol content. All while comparing Vinho Verde red and white. The plan for our machine learning model using TensorFlow implements input variables as red and white wine data. The output will determine which wines are highest in quality using the neural network nodes as metrics of fixed acidity, alcohol content, sulfites, and residual sugars.
 
