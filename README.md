@@ -91,5 +91,5 @@ This model will be conducted as a supervised ML model because we want to accept 
 ## Database
 We will be creating a master database of red and white wine qualities by codifying red and white wines separately therefore making it easier to compare and contrast the qualities of red and white wines. We initiate our process by establishing an ERD that demonstrates the schema between the red and white wine datasets and utilize Postgres to create our relational database structure.
 
-![QuickDBD-Wine_Os (1)](https://user-images.githubusercontent.com/104734224/197297318-82267dc9-01ee-4280-9af9-92b5c320a1ae.png)
+![Wine_Os QuickDB](https://user-images.githubusercontent.com/104734224/197901697-5e4c1a4a-76be-436a-a5b1-175b3d007c3a.png)
 
