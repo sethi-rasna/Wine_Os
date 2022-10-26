@@ -63,6 +63,7 @@ Before diving into our investigation and research questions, let us take a step 
 
 ### Sulfates
 The presence of sulfates on labels can sometimes worry consumers. However, its pros in wine are crucial to the consumption and longevity of the wine stored in the bottle itself. Sulfates help to prevent wine from browning, a process that alters a wine's color and flavor. They aid in minimizing the oxidation in wine and maintain its freshness. Wines with lower acidity need more sulfites than higher acidity wines. Other benefits of sulfates in wine include preventing the growth of unwanted microorganisms, promoting the growth of yeast for better fermentation, and improving the release of desirable compounds from grapes. 
+
 From a health standpoint, there are a few risks associated with sulfate consumption that individuals can develop. Some side effects include:
 -	Headache
 -	Rash
