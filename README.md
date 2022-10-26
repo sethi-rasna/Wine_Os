@@ -26,6 +26,10 @@ What makes the quality of **“Vinho Verde”** so unique?
 - Matplotlib
 - PostgresSQL
 - sklearn
+- Tableau
+- JavaScript
+- CSS
+- HTML
 
 ## Data Sources
 Datasets were obtain through Kaggle
@@ -88,3 +92,13 @@ We will be creating a master database of red and white wine qualities by codifyi
 
 ![QuickDBD-Wine_Os (1)](https://user-images.githubusercontent.com/104734224/197297318-82267dc9-01ee-4280-9af9-92b5c320a1ae.png)
 
+## Dashboard
+### Tools to be used:
+- Tableau
+- JavaScrpt
+- CSS
+- HTML
+
+First, we will be using Tableau to create graphs that will create the visual storytelling of the datasets. Then we will be creating an interactive HTML site that encompasses the following interactive elements:
+- Image wipe using CSS…on one side of the page it will break into containing red wine info, on the other white wine info, and then display both wines in the center of the page. 
+- Adding Tableau graphs that the user will have ability to filter not only between wines, but also all variables in the dataset. 
