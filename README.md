@@ -29,6 +29,9 @@ Known as the second-highest selling wine in Portugal, “Vino Verde” derives f
 - PostgresSQL
 - sklearn
 - Tableau
+- JavaScript
+- CSS
+- HTML
 
 ## Data Sources
 Datasets were obtain through Kaggle
@@ -81,6 +84,7 @@ Residual sugars are natural grape sugars that are not converted into alcohol dur
 ### Alcohol content
 This is the percentage of alcohol content of the wine which can range anywhere from 5% and 23%. The process that makes a wine an alcoholic beverage is called fermentation. It is the fermentation of grapes using yeast. Veraison, the process that ripens the grapes that produces sugar, combined with fermentation, transforms the sugars present in grapes into into ethanol (alcohol) and carbon dioxide. Essentially, the higher the sugar levels in the grape, the higher the alcohol levels in the wine. ABV which stands for “alcohol by volume” is the alcohol percentage measurement in a beverage. 
 
+
 ### Density
 The density of wine is primarily determined by the concentration of alcohol.
 
@@ -94,3 +98,19 @@ We will be creating a master database of red and white wine qualities by codifyi
 
 ![Wine_Os QuickDB](https://user-images.githubusercontent.com/104734224/197901697-5e4c1a4a-76be-436a-a5b1-175b3d007c3a.png)
 
+## Dashboard
+### Tools to be used:
+- Tableau
+- JavaScrpt
+- CSS
+- HTML
+
+First, we will be using Tableau to create graphs that will create the visual storytelling of the datasets. Then we will be creating an interactive HTML site that encompasses the following interactive elements:
+- Image wipe using CSS. On one side of the page the user will be able to see the breakout of only red wine information, on the other sie white wine information, and then display both wine types in the center of the page. 
+- Adding Tableau graphs that the user will have ability to filter not only between wines, but also all variables in the dataset. 
+
+### Tableau Story
+[Study on Portguese Vinho Verde Wines](https://public.tableau.com/shared/YZJH2MF9Y?:display_count=n&:origin=viz_share_link)
+
+## Google Slide
+[Presentation Link](https://docs.google.com/presentation/d/1FuBTL0TB9id7cwCmETkrJSE-uFu8w-liyU0KQio8Rgo/edit?usp=sharing)
