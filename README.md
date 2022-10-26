@@ -103,5 +103,8 @@ First, we will be using Tableau to create graphs that will create the visual sto
 - Image wipe using CSS. On one side of the page the user will be able to see the breakout of only red wine information, on the other sie white wine information, and then display both wine types in the center of the page. 
 - Adding Tableau graphs that the user will have ability to filter not only between wines, but also all variables in the dataset. 
 
+### Tableau Story
+[Study on Portguese Vinho Verde Wines](https://public.tableau.com/shared/YZJH2MF9Y?:display_count=n&:origin=viz_share_link)
+
 ## Google Slide
 [Presentation Link](https://docs.google.com/presentation/d/1FuBTL0TB9id7cwCmETkrJSE-uFu8w-liyU0KQio8Rgo/edit?usp=sharing)
