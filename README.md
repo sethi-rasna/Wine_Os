@@ -104,4 +104,4 @@ First, we will be using Tableau to create graphs that will create the visual sto
 - Adding Tableau graphs that the user will have ability to filter not only between wines, but also all variables in the dataset. 
 
 ## Google Slide
-Presentation Link [google_slide](https://docs.google.com/presentation/d/1FuBTL0TB9id7cwCmETkrJSE-uFu8w-liyU0KQio8Rgo/edit?usp=sharing)
+[Presentation Link](https://docs.google.com/presentation/d/1FuBTL0TB9id7cwCmETkrJSE-uFu8w-liyU0KQio8Rgo/edit?usp=sharing)
