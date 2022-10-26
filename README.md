@@ -102,3 +102,6 @@ We will be creating a master database of red and white wine qualities by codifyi
 First, we will be using Tableau to create graphs that will create the visual storytelling of the datasets. Then we will be creating an interactive HTML site that encompasses the following interactive elements:
 - Image wipe using CSS…on one side of the page it will break into containing red wine info, on the other white wine info, and then display both wines in the center of the page. 
 - Adding Tableau graphs that the user will have ability to filter not only between wines, but also all variables in the dataset. 
+
+## Google Slide
+Presentation Link [google_slide](https://docs.google.com/presentation/d/1FuBTL0TB9id7cwCmETkrJSE-uFu8w-liyU0KQio8Rgo/edit?usp=sharing)
