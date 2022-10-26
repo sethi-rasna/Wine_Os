@@ -1,0 +1,62 @@
+CREATE TABLE red_white
+(
+    type_wine varchar,
+    winetype_numeric float
+);
+  
+
+
+CREATE TABLE quality_red
+(
+    type_wine varchar,
+    winetype_numeric int,
+    fixed_acidity  float,
+    residual_sugar  float,
+    density float,
+    alcohol_content float,
+    alcohol_measure int,
+    fixed_acidity_measure int,
+    quality int
+  );
+
+CREATE TABLE quality_white
+(
+    type_wine varchar,
+    winetype_numeric int,
+    fixed_acidity  float,
+    residual_sugar  float,
+    density float,
+    alcohol_content float,
+    alcohol_measure int,
+    fixed_acidity_measure int,
+    quality int
+  );
+
+CREATE TABLE health_red
+(
+    type_wine varchar,
+    winetype_numeric int,
+    residual_sugar  float,
+    ph float,
+    sulphates float,
+    sulphates_measure   int,
+    healthiness int
+  );
+  
+CREATE TABLE health_white
+(
+    type_wine varchar,
+    winetype_numeric int,
+    residual_sugar  float,
+    ph float,
+    sulphates float,
+    sulphates_measure   int,
+    healthiness int
+  );
+
+COPY red(type_wine, fixed_acidity, residual_sugar, sulphates, alcohol_content)
+FROM 'C:\Users\sethi\Documents\Data_Analytics\Wine_Os\winequality-red.csv'
+DELIMITER ','
+CSV HEADER;
+
+SELECT * from red;
