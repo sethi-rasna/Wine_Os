@@ -29,6 +29,9 @@ Known as the second-highest selling wine in Portugal, “Vino Verde” derives f
 - PostgresSQL
 - sklearn
 - Tableau
+- JavaScript
+- CSS
+- HTML
 
 ## Data Sources
 Datasets were obtain through Kaggle
@@ -62,8 +65,9 @@ In our analysis, we utilize two datasets of the red and white Portuguese "Vinho 
 Before diving into our investigation and research questions, let us take a step back to further understand a few of the exploratory variables that are essential in the wine making process.
 
 ### Sulfates
-The presence of sulfates on labels can sometimes worry consumers. However, its pros in wine are crucial to the consumption and longevity of the wine stored in the bottle itself. Sulfates help to prevent wine from browning, a process that alters a wine's color and falor. They aid in minimizing its oxidation in wine and maintain its freshness. Wines with lower acidity need more sulfites than higher acidity wines. Other benefits of sulfates in wine include preventing the growth of unwanted microorganisms, promoting the growth of yeast for better fermentation, and improving the release of desirable compounds from grapes. 
-From a health standpoint, that are a few risks associated with sulfate consumption that individuals can develop. Some side effects that can be presented include:
+The presence of sulfates on labels can sometimes worry consumers. However, its pros in wine are crucial to the consumption and longevity of the wine stored in the bottle itself. Sulfates help to prevent wine from browning, a process that alters a wine's color and flavor. They aid in minimizing the oxidation in wine and maintain its freshness. Wines with lower acidity need more sulfites than higher acidity wines. Other benefits of sulfates in wine include preventing the growth of unwanted microorganisms, promoting the growth of yeast for better fermentation, and improving the release of desirable compounds from grapes. 
+
+From a health standpoint, there are a few risks associated with sulfate consumption that individuals can develop. Some side effects include:
 -	Headache
 -	Rash
 -	Hives
@@ -80,6 +84,7 @@ Residual sugars are natural grape sugars that are not converted into alcohol dur
 ### Alcohol content
 This is the percentage of alcohol content of the wine which can range anywhere from 5% and 23%. The process that makes a wine an alcoholic beverage is called fermentation. It is the fermentation of grapes using yeast. Veraison, the process that ripens the grapes that produces sugar, combined with fermentation, transforms the sugars present in grapes into into ethanol (alcohol) and carbon dioxide. Essentially, the higher the sugar levels in the grape, the higher the alcohol levels in the wine. ABV which stands for “alcohol by volume” is the alcohol percentage measurement in a beverage. 
 
+
 ### Density
 The density of wine is primarily determined by the concentration of alcohol.
 
@@ -91,5 +96,21 @@ This model will be conducted as a supervised ML model because we want to accept 
 ## Database
 We will be creating a master database of red and white wine qualities by codifying red and white wines separately therefore making it easier to compare and contrast the qualities of red and white wines. We initiate our process by establishing an ERD that demonstrates the schema between the red and white wine datasets and utilize Postgres to create our relational database structure.
 
-![QuickDBD-Wine_Os (1)](https://user-images.githubusercontent.com/104734224/197297318-82267dc9-01ee-4280-9af9-92b5c320a1ae.png)
+![Wine_Os QuickDB](https://user-images.githubusercontent.com/104734224/197901697-5e4c1a4a-76be-436a-a5b1-175b3d007c3a.png)
 
+## Dashboard
+### Tools to be used:
+- Tableau
+- JavaScrpt
+- CSS
+- HTML
+
+First, we will be using Tableau to create graphs that will create the visual storytelling of the datasets. Then we will be creating an interactive HTML site that encompasses the following interactive elements:
+- Image wipe using CSS. On one side of the page the user will be able to see the breakout of only red wine information, on the other sie white wine information, and then display both wine types in the center of the page. 
+- Adding Tableau graphs that the user will have ability to filter not only between wines, but also all variables in the dataset. 
+
+### Tableau Story
+[Study on Portguese Vinho Verde Wines](https://public.tableau.com/shared/YZJH2MF9Y?:display_count=n&:origin=viz_share_link)
+
+## Google Slide
+[Presentation Link](https://docs.google.com/presentation/d/1FuBTL0TB9id7cwCmETkrJSE-uFu8w-liyU0KQio8Rgo/edit?usp=sharing)
