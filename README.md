@@ -89,22 +89,20 @@ This is the percentage of alcohol content of the wine which can range anywhere f
 The density of wine is primarily determined by the concentration of alcohol.
 
 ## Machine Learning Module
-Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim to predict Vinho Verde’s healthiness and quality based on chemical compositions of red and white wine. Healthiness is determined by sulfate levels while quality via acidity and alcohol content. The plan for our machine learning model uses TensorFlow to implement input variables from red and white wine data. The output determines which wines are highest in quality using the neural network nodes as metrics of fixed acidity and alcohol content. First, we import our dependencies. Then, we process the data by dropping unnecessary variables to determine the number of unique data points. Next, we bin the "winetype" by numeric values (1=red,2=white) and generate our categorical variable lists. Importantly, we define "healthiness" by creating a column with metric scored based on sulfate content that is binary (1=healthy, 2=not healhty). "Quality" is also defined by a binary scale (1=low quality, 2=high quality). StandardScaler is created to fit and scale the data for compiling, training, and evaluating the model. The model consists of a deep learning neural network that is sequentialy composed of a first hidden layer, a second hidden layer and an output layer. Lastly, the structure of the model is checked for a summary: 
+Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim to predict Vinho Verde’s healthiness and quality based on chemical compositions of red and white wine. Healthiness is determined by sulfate levels while quality via acidity and alcohol content. The plan for our machine learning model uses TensorFlow to implement input variables from red and white wine data. This model is conducted as a supervised Machine Learning model because we want to accept or reject the hypothesis that red wine is healthier and tastier because of higher levels of "quality" and "healthiness". The output determines which wines are highest in quality using the neural network nodes as metrics of fixed acidity and alcohol content. First, we import our dependencies. Then, we process the data by dropping unnecessary variables to determine the number of unique data points. Next, we bin the "winetype" by numeric values (1=red,2=white) and generate our categorical variable lists. Importantly, we define "healthiness" by creating a column with metric scored based on sulfate content that is binary (1=healthy, 2=not healhty). "Quality" is also defined by a binary scale (1=low quality, 2=high quality). StandardScaler is created to fit and scale the data for compiling, training, and evaluating the model. The model consists of a deep learning neural network that is sequentialy composed of a first hidden layer, a second hidden layer and an output layer. Lastly, the structure of the model is checked for a summary: 
 
 ![machine_learning_outcome](https://user-images.githubusercontent.com/93005273/198158355-8f0a9546-33ac-4b6e-a392-1e7eac0217e4.png)
 
-Our dependent variables, "healthiness" and "quality," are tested against both red and white wine. Seventy-five percent is trained and and twenty-five percent is tested. The model is compiled and trained into 100 epochs (the accuracy percentage is 80.63% and does not get any higher after 69 iterations.) Finally, the model is evaluated using the test data for loss (-4.1752) and accuracy (0.8054).
+Our dependent variables, "healthiness" and "quality," are tested against both red and white wine. Seventy-five percent of the data is trained and and twenty-five percent of the data is tested. The model is compiled and trained into 100 epochs (the accuracy percentage is 80.63% and does not get any higher after 69 iterations.) Finally, the model is evaluated using the test data for loss (-4.1752) and accuracy (0.8054).
 
-A new set of checkpoint dependencies are imported (os, tensorflow.keras.callbacks and ModelCheckpoint).
-We defined the checkpoint path and filenames and created a callback that saves the model's weights every 5 epochs.
-
-
-This model will be conducted as a supervised ML model because we want to accept or reject the hypothesis that red wine is healthier and tastier because of higher levels said metrics than white wine based on our criteria.
+A new set of checkpoint dependencies are imported (os, tensorflow.keras.callbacks and ModelCheckpoint). We define the checkpoint path and filenames by creating a callback that saves the model's weights every 5 epochs.
 
 ## Database
-We will be creating a master database of red and white wine qualities by codifying red and white wines separately therefore making it easier to compare and contrast the qualities of red and white wines. We initiate our process by establishing an ERD that demonstrates the schema between the red and white wine datasets and utilize Postgres to create our relational database structure.
+We create a master database of red and white wine qualities by codifying red and white wines separately. This makes it easier to compare and contrast the qualities of red and white wines. We initiate our process by establishing an ERD that demonstrates the schema between the red and white wine datasets.
 
 ![Wine_Os QuickDB](https://user-images.githubusercontent.com/104734224/197901697-5e4c1a4a-76be-436a-a5b1-175b3d007c3a.png)
+
+We utilize PostgresSQL to create relational databases that establish what qualities contribute to "healthiness" and "quality." There are separate databases for red and white wine and each one displays the qualities of "healthiness" and "quality."
 
 ## Dashboard
 ### Tools to be used:
