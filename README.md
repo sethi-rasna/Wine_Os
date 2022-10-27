@@ -34,7 +34,7 @@ Known as the second-highest selling wine in Portugal, “Vino Verde” derives f
 - HTML
 
 ## Data Sources
-Datasets were obtain through Kaggle
+Datasets were obtained through Kaggle
 - Red wine: [wineequality-red.csv](https://www.kaggle.com/code/vishalyo990/prediction-of-quality-of-wine/notebook)
 - White wine: [winequality-white.csv](https://www.kaggle.com/datasets/piyushagni5/white-wine-quality?select=winequality-white.csv)
 
