@@ -88,6 +88,9 @@ This is the percentage of alcohol content of the wine which can range anywhere f
 ### Density
 The density of wine is primarily determined by the concentration of alcohol.
 
+## Data Exploration and Analysis
+
+
 ## Machine Learning Module
 Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim to predict Vinho Verde’s healthiness and quality based on chemical compositions of red and white wine. Healthiness is determined by sulfate levels while quality via acidity and alcohol content. The plan for our machine learning model uses TensorFlow to implement input variables from red and white wine data. This model is conducted as a supervised Machine Learning model because we want to accept or reject the hypothesis that red wine is healthier and tastier because of higher levels of "quality" and "healthiness". 
 
