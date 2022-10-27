@@ -96,7 +96,7 @@ Upon initial review, we wanted to see which chemical components of the red and w
 
 Our primary analysis shows that white wine has a significant amount of sulfur dioxide as compared to red white. 
 
-![sulfur dioxide table](Images/comparing_sulfur_dioxide.png)
+![sd table](Images/comparing_sulfer_dioxide.png)
 
 ![sulfur dioxide graph](Images/sulfur_dioxide_graph.png)
 
