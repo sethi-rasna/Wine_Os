@@ -90,9 +90,23 @@ The density of wine is primarily determined by the concentration of alcohol.
 
 ## Data Exploration and Analysis
 
-Upon initial review, we wanted to see which chemical components of the red and white wine differed from one another. Our primary analysis shows that white wine has a significant amount of sulfur dioxide as compared to red white. Furthermore, white wine also has more residual sugars than red wine. We think this may impact alcohol content because the residual sugar is what is leftover after the wine becomes an alcoholic beverage. We found that the average alcohol content of both red and white wine were similar, leaving us to believe that either different, perhaps sweeter, grapes are used for the white wine making process or that white wine ages differently. 
+Upon initial review, we wanted to see which chemical components of the red and white wine differed from one another. 
+
+![wine comparison](Images/total_wine_comparison.png)
+
+Our primary analysis shows that white wine has a significant amount of sulfur dioxide as compared to red white. 
+
+![sulfur dioxide table](Images/comparing_sulfur_dioxide.png)
+
+![sulfur dioxide graph](Images/sulfur_dioxide_graph.png)
+
+Furthermore, white wine also has more residual sugars than red wine. We think this may impact alcohol content because the residual sugar is what is leftover after the wine becomes an alcoholic beverage. We found that the average alcohol content of both red and white wine were similar, leaving us to believe that either different, perhaps sweeter, grapes are used for the white wine making process or that white wine ages differently. 
+
+![alcohol and residual sugar](Images/alcohol_vs_residual_sugar.png)
 
 With research in hand, we decided that the factors that most impact "healthiness" and "quality" were sulfates, fixed acidity, and alcohol content.
+
+![variables measured](Images/alcohol_acidity_sulphates.png)
 
 ## Machine Learning Module
 Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim to predict Vinho Verde’s healthiness and quality based on chemical compositions of red and white wine. Healthiness is determined by sulfate levels while quality via acidity and alcohol content. The plan for our machine learning model uses TensorFlow to implement input variables from red and white wine data. This model is conducted as a supervised Machine Learning model because we want to accept or reject the hypothesis that red wine is healthier and tastier because of higher levels of "quality" and "healthiness". 
@@ -118,6 +132,9 @@ We utilize PostgresSQL to create relational databases that establish what qualit
 - JavaScrpt
 - CSS
 - HTML
+
+**Tableau Dashboard**
+![tableau_dashboard](Images/tableau_dashboard.png)
 
 First, we will be using Tableau to create graphs that will create the visual storytelling of the datasets. Then we will be creating an interactive HTML site that encompasses the following interactive elements:
 - Image wipe using CSS. On one side of the page the user will be able to see the breakout of only red wine information, on the other sie white wine information, and then display both wine types in the center of the page. 
