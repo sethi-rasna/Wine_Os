@@ -93,11 +93,9 @@ Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim 
 
 ![machine_learning_outcome](https://user-images.githubusercontent.com/93005273/198158355-8f0a9546-33ac-4b6e-a392-1e7eac0217e4.png)
 
-Then we compiled the model and trained the model into 100 epochs(the accuracy percentage which was 80.63% did not get any higher after 69 iterations.
+Our dependent variables, "healthiness" and "quality," are tested against both red and white wine. Seventy-five percent is trained and and twenty-five percent is tested. The model is compiled and trained into 100 epochs (the accuracy percentage is 80.63% and does not get any higher after 69 iterations.) Finally, the model is evaluated using the test data for loss (-4.1752) and accuracy (0.8054).
 
-Then we evaluated the model using the test data for loss (-4.1752) and accuracy (0.8054).
-
-Next we imported checkpoint dependencies os, tensorflow.keras.callbacks and imported ModelCheckpoint.
+A new set of checkpoint dependencies are imported (os, tensorflow.keras.callbacks and ModelCheckpoint).
 We defined the checkpoint path and filenames and created a callback that saves the model's weights every 5 epochs.
 
 
