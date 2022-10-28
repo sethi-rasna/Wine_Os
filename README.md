@@ -111,6 +111,7 @@ With research in hand, we decided that the factors that most impact "healthiness
 
 ## Machine Learning Module
 Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim to predict Vinho Verde’s healthiness and quality based on chemical compositions of red and white wine. We decided to use the Tensorflow model for the following reasons:
+ ![TenserFlow](https://user-images.githubusercontent.com/104734224/198742434-8dae265a-1553-4090-b9d4-70586adab86b.png)
   - It's an opensource platform, which means that is available to all the users around on a variety of systems.
   - It's scalable, which means almost every operation can be performed using this platform.
   - It is compatiable with many languages including Python, which means Pandas as well, and javascript. This allows any user to work in whatever environment they are comfortable in.
