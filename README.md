@@ -117,6 +117,8 @@ Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim 
   - It is compatiable with many languages including Python, which means Pandas as well, and javascript. This allows any user to work in whatever environment they are comfortable in.
   - It makes it possible to build models for machine learning and deep learning.
   - It allows training models directly in the browser.
+  - It attempts to solve a problem with infinite attempts until the most accurate solution is reached.
+
 Some of the disadvantages include:
   - It has a slow speed. 
   - It does not offer many features for the Windows operating system. Windows users can still download TenserFlow via the anaconda prompt or pip install but they are still limited by it's usability.
