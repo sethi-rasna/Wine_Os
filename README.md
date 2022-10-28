@@ -32,6 +32,7 @@ Known as the second-highest selling wine in Portugal, “Vino Verde” derives f
 - JavaScript
 - CSS
 - HTML
+- Machine Learning Model Choice: TensorFlow
 
 ## Data Sources
 Datasets were obtained through Kaggle
@@ -109,7 +110,18 @@ With research in hand, we decided that the factors that most impact "healthiness
 ![variables measured](Images/alcohol_acidity_sulphates.png)
 
 ## Machine Learning Module
-Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim to predict Vinho Verde’s healthiness and quality based on chemical compositions of red and white wine. Healthiness is determined by sulfate levels while quality via acidity and alcohol content. The plan for our machine learning model uses TensorFlow to implement input variables from red and white wine data. This model is conducted as a supervised Machine Learning model because we want to accept or reject the hypothesis that red wine is healthier and tastier because of higher levels of "quality" and "healthiness". 
+Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim to predict Vinho Verde’s healthiness and quality based on chemical compositions of red and white wine. We decided to use the Tensorflow model for the following reasons:
+  - It's an opensource platform, which means that is available to all the users around on a variety of systems.
+  - It's scalable, which means almost every operation can be performed using this platform.
+  - It is compatiable with many languages including Python, which means Pandas as well, and javascript. This allows any user to work in whatever environment they are comfortable in.
+  - It makes it possible to build models for machine learning and deep learning.
+  - It allows training models directly in the browser.
+Some of the disadvantages include:
+  - It has a slow speed. 
+  - It does not offer many features for the Windows operating system. Windows users can still download TenserFlow via the anaconda prompt or pip install but they are still limited by it's usability.
+  - It is inconsistent in that it contains homonyms as names of it's content which makes it difficult for a user to remember and use.
+  
+Healthiness is determined by sulfate levels while quality via acidity and alcohol content. The plan for our machine learning model uses TensorFlow to implement input variables from red and white wine data. This model is conducted as a supervised Machine Learning model because we want to accept or reject the hypothesis that red wine is healthier and tastier because of higher levels of "quality" and "healthiness". 
 
 The output determines which wines are highest in quality using the neural network nodes as metrics of fixed acidity and alcohol content. First, we import our dependencies. Then, we process the data by dropping unnecessary variables to determine the number of unique data points. Next, we bin the "winetype" by numeric values (1=red,2=white) and generate our categorical variable lists. Importantly, we define "healthiness" by creating a column with metric scored based on sulfate content that is binary (1=healthy, 2=not healhty). "Quality" is also defined by a binary scale (1=low quality, 2=high quality). StandardScaler is created to fit and scale the data for compiling, training, and evaluating the model. The model consists of a deep learning neural network that is sequentialy composed of a first hidden layer, a second hidden layer and an output layer. Lastly, the structure of the model is checked for a summary: 
 
