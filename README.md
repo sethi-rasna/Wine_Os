@@ -114,7 +114,7 @@ Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim 
  ![TenserFlow](https://user-images.githubusercontent.com/104734224/198742434-8dae265a-1553-4090-b9d4-70586adab86b.png)
   - It's an opensource platform, which means that is available to all the users around on a variety of systems.
   - It's scalable, which means almost every operation can be performed using this platform.
-  - It is compatiable with many languages including Python, which means Pandas as well, and javascript. This allows any user to work in whatever environment they are comfortable in.
+  - It is compatiable with many languages including Python and JavaScript. This allows any user to work in whatever environment they are comfortable in.
   - It makes it possible to build models for machine learning and deep learning.
   - It allows training models directly in the browser.
   - It attempts to solve a problem with infinite attempts until the most accurate solution is reached.
@@ -122,7 +122,7 @@ Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim 
 Some of the disadvantages include:
   - It has a slow speed. 
   - It does not offer many features for the Windows operating system. Windows users can still download TenserFlow via the anaconda prompt or pip install but they are still limited by it's usability.
-  - It is inconsistent in that it contains homonyms as names of it's content which makes it difficult for a user to remember and use.
+  - It is inconsistent in that it contains homonyms as names of its content which makes it difficult for a user to remember and use.
   
 Healthiness is determined by sulfate levels while quality via acidity and alcohol content. The plan for our machine learning model uses TensorFlow to implement input variables from red and white wine data. This model is conducted as a supervised Machine Learning model because we want to accept or reject the hypothesis that red wine is healthier and tastier because of higher levels of "quality" and "healthiness". 
 
