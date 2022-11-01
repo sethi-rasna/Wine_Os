@@ -141,6 +141,19 @@ We create a master database of red and white wine qualities by codifying red and
 
 We utilize PostgresSQL to create relational databases that establish what qualities contribute to "healthiness" and "quality." There are separate databases for red and white wine and each one displays the qualities of "healthiness" and "quality."
 
+## Results
+- Are there vast chemical compound differences between the red and white wine datasets being compared?
+  - We notice from our initial investigation of the data and our data visualizations that there is significantly more sulfur dioxide in white wine than red wine. Additionally, white wine has more residual sugar but less alcohol content overall. This result is interesting since we thought the sugar remaining after the wine becomes alcohol would mean that there would be a higher alcohol content. As discussed earlier, we think this may be either because different grapes are used for red vs. white wine and/or the aging process for white wine might differ from red wine.
+  
+- Which type of wine presents less alcohol, acidity, and sulphate?
+   - jklsanwak jfklwa 
+    
+   ![wine by acidity](https://user-images.githubusercontent.com/104734224/199358774-1b0c7934-09b5-428c-adbe-6e38f6426971.png)
+   ![wine by residual_sugar](https://user-images.githubusercontent.com/104734224/199358949-d57fce8f-0a88-4468-9ca8-7c7c1c25bb38.png)
+
+- Which qualities make up the healthiest wine?
+- Which wine is a healthier option for consumers?
+- 
 ## Dashboard
 ### Tools to be used:
 - Tableau
