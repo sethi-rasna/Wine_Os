@@ -149,8 +149,11 @@ We utilize PostgresSQL to create relational databases that establish what qualit
    - According to our results, both white and red wine have about the same average alcohol level. White wine has more residual sugar than red wine, red wine is more acidic than white wine, and white wine has less sulphates than red wine.
     
    ![wine by alcohol](https://user-images.githubusercontent.com/104734224/199359524-902b5dc5-8614-4513-a84f-e0995d4240d5.png)
+   
    ![wine by residual_sugar](https://user-images.githubusercontent.com/104734224/199359714-6a6acf75-9208-4587-8c7f-ccd1ad59b55e.png)
+   
    ![wine by acidity](https://user-images.githubusercontent.com/104734224/199358774-1b0c7934-09b5-428c-adbe-6e38f6426971.png)
+   
    ![wine by sulfates](https://user-images.githubusercontent.com/104734224/199359567-3c6859ee-90b5-4299-a258-8eae0c08e352.png)
 
 - Which qualities make up the healthiest wine?
