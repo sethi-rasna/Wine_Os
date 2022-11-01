@@ -55,9 +55,9 @@ In our analysis, we utilize two datasets of the red and white Portuguese "Vinho 
 
 ## Investigation Questions
 - Are there vast chemical compound differences between the red and white wine datasets being compared?
-- Which type of wine presents less alcohol, acidity, and sulphate?
+- Which type of wine presents less alcohol, residual sugar, acidity, and sulphate?
 - Which qualities make up the healthiest wine?
-- Which wine is a healthier option for consumers?
+
 
 ## Understanding the Variables
 
@@ -145,15 +145,17 @@ We utilize PostgresSQL to create relational databases that establish what qualit
 - Are there vast chemical compound differences between the red and white wine datasets being compared?
   - We notice from our initial investigation of the data and our data visualizations that there is significantly more sulfur dioxide in white wine than red wine. Additionally, white wine has more residual sugar but less alcohol content overall. This result is interesting since we thought the sugar remaining after the wine becomes alcohol would mean that there would be a higher alcohol content. As discussed earlier, we think this may be either because different grapes are used for red vs. white wine and/or the aging process for white wine might differ from red wine.
   
-- Which type of wine presents less alcohol, acidity, and sulphate?
-   - jklsanwak jfklwa 
+- Which type of wine presents less alcohol, residual sugar, acidity, and sulphate?
+   - According to our results, both white and red wine have about the same average alcohol level. White wine has more residual sugar than red wine, red wine is more acidic than white wine, and white wine has less sulphates than red wine.
     
+   ![wine by alcohol](https://user-images.githubusercontent.com/104734224/199359524-902b5dc5-8614-4513-a84f-e0995d4240d5.png)
+   ![wine by residual_sugar](https://user-images.githubusercontent.com/104734224/199359714-6a6acf75-9208-4587-8c7f-ccd1ad59b55e.png)
    ![wine by acidity](https://user-images.githubusercontent.com/104734224/199358774-1b0c7934-09b5-428c-adbe-6e38f6426971.png)
-   ![wine by residual_sugar](https://user-images.githubusercontent.com/104734224/199358949-d57fce8f-0a88-4468-9ca8-7c7c1c25bb38.png)
+   ![wine by sulfates](https://user-images.githubusercontent.com/104734224/199359567-3c6859ee-90b5-4299-a258-8eae0c08e352.png)
 
 - Which qualities make up the healthiest wine?
-- Which wine is a healthier option for consumers?
-- 
+  - We conclude that red wine is less healthy than white wine by our measure. To measure healthiness, we use the level of sulphates a wine has.
+
 ## Dashboard
 ### Tools to be used:
 - Tableau
