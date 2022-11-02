@@ -170,7 +170,8 @@ We utilize PostgresSQL to create relational databases that establish what qualit
 ![tableau_dashboard](Images/tableau_dashboard.png)
 
 First, we will be using Tableau to create graphs that will create the visual storytelling of the datasets. Then we will be creating an interactive HTML site that encompasses the following interactive elements:
-- Image wipe using CSS. On one side of the page the user will be able to see the breakout of only red wine information, on the other sie white wine information, and then display both wine types in the center of the page. 
+- Buttons that will allow users to toggle between different tabs. Each tab will contain an image depicting information comparing contents found in both red and white wine. When a user hovers over the image, a transition feature is also added to give it an additional interactive element that engrosses the viewer even more. 
+
 - Adding Tableau graphs that the user will have ability to filter not only between wines, but also all variables in the dataset. 
 
 ### Tableau Story
