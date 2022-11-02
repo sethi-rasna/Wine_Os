@@ -20,9 +20,8 @@ Known as the second-highest selling wine in Portugal, “Vino Verde” derives f
 | Roman Dobczansky | Machine Learning | Creating the framework of the Machine Learning Model |
 | Rasna Sethi | GitHub Repository and Database | Organizing and maintaining the repository and the database creation |
 
-## Technologies Used
+## Technologies, Languages, Tools, and Algorithms Used
 - Jupyter Notebook
-- Google Colab
 - Python
 - Pandas
 - NumPy
