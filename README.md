@@ -168,9 +168,17 @@ A new set of checkpoint dependencies are imported (os, tensorflow.keras.callback
 **Tableau Dashboard**
 ![tableau_dashboard](Images/tableau_dashboard.png)
 
-Now it is time to put the story altogher! There are two visualization methods we will be using to display our results from the analysis. First, we will be using Tableau to create graphs that will compare the measures of the variables within the dataset between the wines. Through using Tableau, the graphs will aid in providing a better understanding of how the variables stack against one another, what we essentially first sought to understand in our data exploration phase. Further more, the graphs have all been constructed with the user have an ability to filter not only between wines, but also all variables within the dataset.
+Now it is time to put the story altogether! There are two visualization methods we will be using to display our results from the analysis. First, we will be using Tableau to create graphs that will compare the measures of the variables within the dataset between the wines. Through using Tableau, the graphs will aid in providing a better understanding of how the variables stack against one another, what we essentially first sought to understand in our data exploration phase. Further more, the graphs have all been constructed with the user have an ability to filter not only between wines, but also all variables within the dataset.
 
-Every bottle of wine has its own story, and through putting together an HTML web page, we hope that visitors of the site will grasp and follow Vinho Verde's data analytics story. There are a few interactive elements for visitors. Buttons that will allow users to toggle between different tabs. Each tab will contain an image depicting information comparing contents found in both red and white wine. When a user hovers over the image, a transition feature is also added to give it an additional interactive element that allows the picture to expand in size and review the images in greater detail.  
+
+**Web Page**
+![html site](Images/html_page.png)
+
+Every bottle of wine has its own story, and through putting together an HTML web page, we hope that visitors of the site will grasp and follow Vinho Verde's data analytics story. There are a few interactive elements for visitors. Buttons that will allow users to toggle between different tabs. Each tab will contain an image depicting information comparing contents found in both red and white wine. 
+
+![interactive element](Images/interactive_element.png)
+
+When a user hovers over the image, a transition feature is also added to give it an additional interactive element that allows the picture to expand in size and review the images in greater detail.  
 
 ### Tableau Story
 [Study on Portguese Vinho Verde Wines](https://public.tableau.com/shared/YZJH2MF9Y?:display_count=n&:origin=viz_share_link)
