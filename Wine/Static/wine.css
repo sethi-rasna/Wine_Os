@@ -1,0 +1,77 @@
+.jumbotron {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 75px;
+    background-image: url("../Images/wine.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: wheat;
+}
+
+body{
+    background-color:blanchedalmond;
+}
+
+h2{
+    font-family:Helvetica;
+}
+
+h3{
+    font-family:Helvetica;
+}
+
+p{
+    font-size: 20px;
+    font-family:Helvetica;
+}
+
+li{
+    font-size: 20px;
+    font-family:Helvetica;
+}
+
+.btn {
+    float: left;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #a5030e;
+    border: none;
+}
+
+.btn:hover {
+    color: #a5030e;
+    background-color: wheat;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #a5030e;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+#bannerImage {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: auto;  
+    margin-bottom: auto;
+    transition: width 2s, height 2s;
+}
+
+#bannerImage:hover{
+    width: 750px;
+    height: 750px;
+}
