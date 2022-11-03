@@ -108,6 +108,13 @@ With research in hand, we decided that the factors that most impact "healthiness
 
 ![variables measured](Images/alcohol_acidity_sulphates.png)
 
+## Database
+We create a master database of red and white wine qualities by codifying red and white wines separately. This makes it easier to compare and contrast the qualities of red and white wines. We initiate our process by establishing an ERD that demonstrates the schema between the red and white wine datasets.
+
+![Wine_Os QuickDB](https://user-images.githubusercontent.com/104734224/197901697-5e4c1a4a-76be-436a-a5b1-175b3d007c3a.png)
+
+We utilize PostgresSQL to create relational databases that establish what qualities contribute to "healthiness" and "quality." There are separate databases for red and white wine and each one displays the qualities of "healthiness" and "quality."
+
 ## Machine Learning Module
 Through the use of the Machine Learning tools in sklearn and TensorFlow, we aim to predict Vinho Verde’s healthiness and quality based on chemical compositions of red and white wine. We decided to use the Tensorflow model for the following reasons:
  ![TenserFlow](https://user-images.githubusercontent.com/104734224/198742434-8dae265a-1553-4090-b9d4-70586adab86b.png)
@@ -132,13 +139,6 @@ The output determines which wines are highest in quality using the neural networ
 Our dependent variables, "healthiness" and "quality," are tested against both red and white wine. Seventy-five percent of the data is trained and and twenty-five percent of the data is tested. The model is compiled and trained into 100 epochs (the accuracy percentage is 80.63% and does not get any higher after 69 iterations.) Finally, the model is evaluated using the test data for loss (-4.1752) and accuracy (0.8054).
 
 A new set of checkpoint dependencies are imported (os, tensorflow.keras.callbacks and ModelCheckpoint). We define the checkpoint path and filenames by creating a callback that saves the model's weights every 5 epochs.
-
-## Database
-We create a master database of red and white wine qualities by codifying red and white wines separately. This makes it easier to compare and contrast the qualities of red and white wines. We initiate our process by establishing an ERD that demonstrates the schema between the red and white wine datasets.
-
-![Wine_Os QuickDB](https://user-images.githubusercontent.com/104734224/197901697-5e4c1a4a-76be-436a-a5b1-175b3d007c3a.png)
-
-We utilize PostgresSQL to create relational databases that establish what qualities contribute to "healthiness" and "quality." There are separate databases for red and white wine and each one displays the qualities of "healthiness" and "quality."
 
 ## Results
 - Are there vast chemical compound differences between the red and white wine datasets being compared?
