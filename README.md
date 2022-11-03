@@ -176,7 +176,7 @@ Now it is time to put the story altogether! There are two visualization methods 
 
 Every bottle of wine has its own story, and through putting together an HTML web page, we hope that visitors of the site will grasp and follow Vinho Verde's data analytics story. There are a few interactive elements for visitors. Buttons that will allow users to toggle between different tabs. Each tab will contain an image depicting information comparing contents found in both red and white wine. 
 
-![interactive element](Images/interactive_element.png)
+![interactive element](Images/interactive_element_new.png)
 
 When a user hovers over the image, a transition feature is also added to give it an additional interactive element that allows the picture to expand in size and review the images in greater detail.  
 
