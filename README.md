@@ -181,7 +181,11 @@ Every bottle of wine has its own story, and through putting together an HTML web
 When a user hovers over the image, a transition feature is also added to give it an additional interactive element that allows the picture to expand in size and review the images in greater detail.  
 
 ### Tableau Story
-[Study on Portguese Vinho Verde Wines](https://public.tableau.com/shared/YZJH2MF9Y?:display_count=n&:origin=viz_share_link)
+[Study on Portguese Vinho Verde Wines](https://public.tableau.com/app/profile/vannesa.martinez/viz/PortgueseVinhoVerdeRedvs_WhiteWines/Dashboard1?publish=yes)
+
+
 
 ## Google Slide
 [Presentation Link](https://docs.google.com/presentation/d/1FuBTL0TB9id7cwCmETkrJSE-uFu8w-liyU0KQio8Rgo/edit?usp=sharing)
+
+
