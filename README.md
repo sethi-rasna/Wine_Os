@@ -172,6 +172,8 @@ Now it is time to put the story altogether! There are two visualization methods 
 
 
 **Web Page**
+![html_site](https://sethi-rasna.github.io/Wine_Os/)
+
 ![html site](Images/html_page.png)
 
 Every bottle of wine has its own story, and through putting together an HTML web page, we hope that visitors of the site will grasp and follow Vinho Verde's data analytics story. There are a few interactive elements for visitors. Buttons that will allow users to toggle between different tabs. Each tab will contain an image depicting information comparing contents found in both red and white wine. 
