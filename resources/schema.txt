@@ -1,0 +1,129 @@
+-- Table: public.health_red
+
+-- DROP TABLE IF EXISTS public.health_red;
+
+CREATE TABLE IF NOT EXISTS public.health_red
+(
+    type_wine character varying COLLATE pg_catalog."default",
+    winetype_numeric integer,
+    residual_sugar double precision,
+    ph double precision,
+    sulphates double precision,
+    sulphates_measure integer,
+    healthiness integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.health_red
+    OWNER to postgres;
+
+-- Table: public.health_white
+
+-- DROP TABLE IF EXISTS public.health_white;
+
+CREATE TABLE IF NOT EXISTS public.health_white
+(
+    type_wine character varying COLLATE pg_catalog."default",
+    winetype_numeric integer,
+    residual_sugar double precision,
+    ph double precision,
+    sulphates double precision,
+    sulphates_measure integer,
+    healthiness integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.health_white
+    OWNER to postgres;
+
+-- Table: public.quality_red
+
+-- DROP TABLE IF EXISTS public.quality_red;
+
+CREATE TABLE IF NOT EXISTS public.quality_red
+(
+    type_wine character varying COLLATE pg_catalog."default",
+    winetype_numeric integer,
+    fixed_acidity double precision,
+    residual_sugar double precision,
+    density double precision,
+    alcohol_content double precision,
+    alcohol_measure integer,
+    fixed_acidity_measure integer,
+    quality integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.quality_red
+    OWNER to postgres;
+
+-- Table: public.quality_white
+
+-- DROP TABLE IF EXISTS public.quality_white;
+
+CREATE TABLE IF NOT EXISTS public.quality_white
+(
+    type_wine character varying COLLATE pg_catalog."default",
+    winetype_numeric integer,
+    fixed_acidity double precision,
+    residual_sugar double precision,
+    density double precision,
+    alcohol_content double precision,
+    alcohol_measure integer,
+    fixed_acidity_measure integer,
+    quality integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.quality_white
+    OWNER to postgres;
+
+-- Table: public.red_white
+
+-- DROP TABLE IF EXISTS public.red_white;
+
+CREATE TABLE IF NOT EXISTS public.red_white
+(
+    type_wine character varying COLLATE pg_catalog."default",
+    winetype_numeric double precision
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.red_white
+    OWNER to postgres;
+
+-- Table: public.red_white_wine
+
+-- DROP TABLE IF EXISTS public.red_white_wine;
+
+CREATE TABLE IF NOT EXISTS public.red_white_wine
+(
+    wine_type character varying COLLATE pg_catalog."default",
+    winetype_numeric double precision,
+    fixed_acidity double precision,
+    volatile_acidity double precision,
+    citric_acid double precision,
+    residual_sugar double precision,
+    chlorides double precision,
+    free_sulfur double precision,
+    total_sulfur double precision,
+    density double precision,
+    ph double precision,
+    sulphates double precision,
+    alcohol double precision,
+    sulphates_measure integer,
+    alcohol_measure integer,
+    fixed_acidity_measure integer,
+    healthiness integer,
+    quality integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.red_white_wine
+    OWNER to postgres;
