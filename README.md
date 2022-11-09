@@ -114,3 +114,6 @@ First, we will be using Tableau to create graphs that will create the visual sto
 
 ## Google Slide
 [Presentation Link](https://docs.google.com/presentation/d/1FuBTL0TB9id7cwCmETkrJSE-uFu8w-liyU0KQio8Rgo/edit?usp=sharing)
+
+## Presentation Notes
+[Notes Link](https://docs.google.com/document/d/1grPDizqEJmBLtP_DUWgv1kragflEH_7da_Cw12SHuVs/edit?usp=sharing)
